@@ -9,3 +9,46 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.hide {
+    display: none;
+}
+
+.show-hiden:hover .hide {
+    display: inline;
+
+}
+
+.fuzzy-bubbles-regular {
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fuzzy-bubbles-bold {
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bg-orange-100 {
+    color: #ffe5d0
+}
+
+.text-color-a {
+    color: rgb(100, 71, 26)
+}
+
+/*input[type="checkbox"] {
+    accent-color: #198754; 
+  }*/
+
+.check-green:checked {
+    background-color: #198754;
+    border-color:#198754;
+}
+
+.check-green:focus {
+    border-color:#198754;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem #1987546e;
+}
