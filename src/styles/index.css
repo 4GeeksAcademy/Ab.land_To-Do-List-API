@@ -35,7 +35,7 @@
 }
 
 .text-color-a {
-    color: rgb(100, 71, 26)
+    color: #694b94;
 }
 
 /*input[type="checkbox"] {
@@ -43,12 +43,26 @@
   }*/
 
 .check-green:checked {
-    background-color: #198754;
-    border-color:#198754;
+    background-color: #54c1bb;
+    border-color:#54c1bb;
 }
 
 .check-green:focus {
-    border-color:#198754;
+    border-color:#54c1bb;
     outline: 0;
-    box-shadow: 0 0 0 .25rem #1987546e;
+    box-shadow: 0 0 0 .25rem #54c1bc86;
+}
+body{
+    background-image: url(https://images.unsplash.com/vector-1739202818384-67e5c0b163df);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-purple{
+    background-color: #694b94;
+}
+
+.border-top-purple{
+    border-top: solid #412e5b;
 }
