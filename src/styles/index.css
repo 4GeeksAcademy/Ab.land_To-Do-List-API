@@ -30,12 +30,10 @@
     font-style: normal;
 }
 
-.bg-orange-100 {
-    color: #ffe5d0
-}
+
 
 .text-color-a {
-    color: #694b94;
+    color: #6ea497;
 }
 
 /*input[type="checkbox"] {
@@ -53,16 +51,13 @@
     box-shadow: 0 0 0 .25rem #54c1bc86;
 }
 body{
-    background-image: url(https://images.unsplash.com/vector-1739202818384-67e5c0b163df);
+    background-image: url(https://images.unsplash.com/vector-1743785234778-971df9b78b96);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
-.bg-purple{
-    background-color: #694b94;
+.bg-a{
+    background-color: #6ea497;
 }
 
-.border-top-purple{
-    border-top: solid #412e5b;
-}
