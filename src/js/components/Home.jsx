@@ -37,7 +37,7 @@ const Home = () => {
         setArrayToDos(data.todos);
       })
       .catch((error) => {
-        console.log(error);
+        console.error(error);
       });
   }
 
