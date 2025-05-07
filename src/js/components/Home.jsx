@@ -201,7 +201,7 @@ const Home = () => {
 
 				<li className="list-group-item border-0 bg-a d-flex align-items-center ">
 					{`${arrayToDos.length} task${arrayToDos.length !== 1 ? "s" : ""} left`}
-					<button className="btn btn-outline-warning border-0 btn-sm ms-auto" onClick={getAPIList}><i class="fa-solid fa-bug-slash"></i></button>
+					<button className="btn btn-outline-warning border-0 btn-sm ms-auto" onClick={postUser}><i class="fa-solid fa-bug-slash"></i></button>
 				</li>
 			</ul>
 
